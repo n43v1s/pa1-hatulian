@@ -1,0 +1,112 @@
+
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .dropdown-menu{
+      text-align: center;
+  }
+  .row img{
+      margin-left: 10%;
+      width: 70%;
+      margin-top: 20px;;
+      box-shadow: 7px 8px 10px lightblue;
+      border-radius: 80%;
+      -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+  }
+ .ats{
+     margin-top: 30px;
+ }
+ .isi H3{
+    text-align: center;
+    color: lightgreen;
+    font-family: monospace;
+    text-decoration: underline;
+ }
+ .ats h5{
+     text-align: center;
+     font-family: fantasy;
+     -webkit-transition: all 2s ease-in;
+     -moz-transition: all 2s ease-in;
+     -ms-transition: all 2s ease-in;
+     -o-transition: all 2s ease-in;
+     transition: all 2s ease-in;
+ }
+  @media screen and (max-width : 750px){
+      .row img{
+          width: 60%;
+      }
+      .aa{
+          margin-top: 20px;
+          width: 50%;
+          margin-left: 20%;
+      }
+      .row img:hover{
+        width: 70%;
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+      cursor: pointer;
+    }
+     
+  }
+  #def{
+      color: black;
+      background: white;
+      border: none;
+      border-top-right-radius: 10px;
+  }
+  #randD{
+      color: white;
+      background: linear-gradient(to right, darkblue, darkgreen,orange,darkred);
+      border: none;
+      border-top-right-radius: 10px;
+  }
+  #radnL{
+      color: black;
+      background: linear-gradient(to right, lightblue, lightgreen, lightyellow, pink);
+      border: none;
+      border-top-right-radius: 10px;
+  }
+  .row img:hover{
+      width: 80%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+  }
+  .font{
+      text-align: center;
+  }
+  .hide3, .hide4{
+      margin-top: 20px;
+  }
+  .img4{
+      height: 55%;
+  }
+  .img2{
+      height: 90%;
+  }
+  .img3{
+    height: 55%;
+  }
+  .bat
+{
+    width: 80%;
+    text-align: center;
+    margin-left: 10% ;
+}
+  

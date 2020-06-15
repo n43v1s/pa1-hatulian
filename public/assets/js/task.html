@@ -1,0 +1,37 @@
+<!--
+    Nama   : Andree Panjaitan
+    Nim    : 11419014
+    Nama file:  task.html
+    Kelas : 41TRPL1 
+-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Dialog -Default functionality</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script>
+    $(document).ready(function () { 
+        $("#kotakdialog").dialog();
+        $("#kotakdialog").dialog(); 
+        $("#isi").accordion(); $("#tanggal")
+        .datepicker({ dateFormat: "dd-MM-yy" });
+        $('#alamat').hide();
+        $(':button[id="btnhide"]').click(function () {$('#alamat').toggle();});
+    });
+    </script>
+</head>
+
+<body>
+    <div id="kotakdialog" title="Pesan Hari Ini">
+      <p><input type="text" name="" id="" placeholder="Nama....."></p> 
+       <p>Masukkan Tanggal: <input type="text" id="tanggal" placeholder="Tanggal Lahir"><button id="btnhide">OK</button></p>
+       <p><input type="text" name="alamat" id="alamat" placeholder="alamat"></p>
+    </div>
+</body>
+
+</html>

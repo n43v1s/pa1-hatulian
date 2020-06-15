@@ -1,0 +1,129 @@
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .agak_naik{
+      margin-top : 80px;
+  }
+  .dropdown-menu{
+      text-align: center;
+  }
+  .row img{
+      width: 100%;
+      margin-top: 20px;;
+      box-shadow: 4px 4px 2px 4px green;
+      border-radius: 10px;
+  }
+
+  #isi h3{
+    text-align: center;
+ }
+ .ats{
+     margin-top: 60px;
+     margin-bottom: 0px;
+ }
+  @media screen and (max-width : 750px){
+      .row img{
+          width: 90%;
+          position: relative;
+      }
+      .aa{
+          margin-top: 20px;
+          width: 50%;
+          margin-left: 20%;
+      }
+
+  }
+  #def{
+      color: black;
+      background: white;
+      border: none;
+      border-top-right-radius: 10px;
+  }
+  #randD{
+      color: white;
+      background: linear-gradient(to right, darkblue, darkgreen,orange,darkred);
+      border: none;
+      border-top-right-radius: 10px;
+  }
+  #radnL{
+      color: black;
+      background: linear-gradient(to right, lightblue, lightgreen, lightyellow, pink);
+      border: none;
+      border-top-right-radius: 10px;
+  }
+  .aa:hover{
+    width: 130%;
+  }
+  .aa img:hover{
+      width: 110%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .Login{
+    width: 50%;
+    margin-left: 30%;
+}
+.Login h3{
+    text-align: center;
+    font-family: serif;
+    color: crimson;
+    font-style: italic;
+}
+.Login input{
+    width: 90%;
+    margin-bottom: 10px;
+}
+.Login label{
+    width: 20%;
+    margin-left: 35%;
+    font-family: monospace;
+}
+.Login input::placeholder{
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+#btnSubmit{
+    background: cyan;
+    border: none;
+    color: red;
+    border-radius: 2px;
+    font-family: monospace;
+    cursor: pointer;
+}
+#btnSubmit :active{
+background: #ffffff;
+color: red;
+}
+#btnSubmit:hover{
+  background: lightcoral;
+  color: lightgreen;
+}
+
+.fotokami img{
+    width: 70%;
+    margin-left: 15%;
+}
+.bat
+{
+    width: 80%;
+    margin-left: 10% ;
+}
+.c{
+    
+    margin-top:-30px;
+}
+.xya
+{
+    width: 100%;
+    text-align: center;
+}

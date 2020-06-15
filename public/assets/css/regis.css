@@ -1,0 +1,91 @@
+#def{
+    color: black;
+    background: white;
+    border: none;
+    border-top-right-radius: 10px;
+}
+#randD{
+    color: white;
+    background: linear-gradient(to right, darkblue, darkgreen,orange,darkred);
+    border: none;
+    border-top-right-radius: 10px;
+}
+#radnL{
+    color: black;
+    background: linear-gradient(to right, lightblue, lightgreen, lightyellow, pink);
+    border: none;
+    border-top-right-radius: 10px;
+}
+
+.low{
+    width: 480px;
+    margin: auto;
+    background: rgba( 45, 225, 255, 0.3);
+    border-radius: 20px;
+}
+.low input{
+    border: 2px solid gray;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+.low h3{
+    text-align: center;
+    margin-top: 20px ;
+}
+.pertama{
+    width: 96%;
+    margin-left: 3%;
+}
+.pertama div input{
+    width: 98%;
+}
+.pertama div{
+    display: inline-block;
+    width: 49%;
+}
+.username{
+    width: 96%;
+    margin-left: 2%;
+}
+.email{
+    width: 96%;
+    margin-left: 2%;
+}
+.password{
+    width: 96%;
+    margin-left: 2%;
+}
+.telepon{
+    width: 96%;
+    margin-left: 2%;
+}
+.alamat{
+    width: 96%;
+    margin-left: 2%;
+}
+.username input,.email input, .telepon input{
+    width: 100%;
+}
+.password input{
+    width: 100%;
+}
+#subm{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    background: coral;
+    color: aqua;
+    border: none;
+    
+}
+#subm:hover{
+    background: greenyellow;
+    color: black;
+}
+#subm:active{
+    background: crimson;
+    color: darkcyan;
+}

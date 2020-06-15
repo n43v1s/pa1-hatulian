@@ -1,0 +1,407 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(46, 63, 87, 0.95),rgba(46, 63, 87, 0.95)),
+                url("../gambar/IMG-20200428-WA0046.jpg") center no-repeat;
+    background-position:center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.banner .navbar{
+    margin-top: 1.5%;
+}
+
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.banner .nav li a{
+    color: rgb(252, 245, 245);
+    font-size: 1em;
+}
+
+.banner .info{
+    margin-top: 18%;
+    transform: translateY(-20%);
+}
+
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.banner .info p{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #aaa;
+    letter-spacing: 2px;
+}
+.banner .info a{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background-color: #4e4446;
+}
+.btn{
+    width: 100px;
+    padding: 5px 0!important;
+    border : 1px solid #c69963;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255,255,255, .3), transparent);
+    transition: all 650ms;
+}
+
+.btn:hover::before{
+    left: 100%;
+}
+
+
+h3{
+    color: #ffffff;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+    color: #ffffff;
+    font-size: 1.3rem;
+    padding: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: serif;
+}
+
+.my-text-bgcolor p{
+    background: rgba(156, 154, 154, 0.561);
+    margin-top: 1.5rem;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 6px 10px 10px 15px rgba(156, 154, 154, 0.561);
+}
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.plx1{
+    background-image: url('../gambar/20200215_095734.jpg');
+}
+.plx2{
+    background-image: url('../gambar/20200215_100838.jpg');
+}
+.plx3{
+    background-image: url('../gambar/WhatsApp Image 2020-04-28 at 14.47.53.jpeg');
+    height: 50vh;
+}
+.plx4{
+    background-image: url('../gambar/WhatsApp Image 2020-04-28 at 14.48.29.jpeg');
+    height: 100vh;
+}
+.color-div{
+    height: 75vh;
+    width: 100%;
+}
+
+.color-div1{
+    background-color: rgb(151, 177, 199);
+}
+
+.color-div1a{
+    background-color: rgb(184, 202, 188);
+}
+.content1 h3{
+    margin-top: 1rem;
+}
+.content1 p{
+    text-align: left;
+    margin-left: 2%;
+}
+.color-div2{
+    background-color: rgb(132,168,160);
+    position: absolute ;
+}
+.content2{
+    margin-top: 7rem;
+}
+.content2a p{
+    text-align: left;
+}
+
+.color-div3{
+    background-color: rgb(39, 62, 82);
+}
+
+.color-div3 p{
+    text-align: left;
+    margin-left: 37%;
+}
+
+.color-div4{
+    background-color:rgb(65, 128, 114) ;
+    height: 70vh;
+}
+
+.color-div4 a{
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+
+.color-div4 a:hover{
+    color: rgb(85, 219, 190);
+}
+
+.insta-img img{
+    height: 12rem;
+    width: 19rem;
+}
+
+.plx5{
+    background-image: url("../gambar/logika.jpg");
+    height: 700px;
+    width: 100%;
+    border-right: 200px solid #ffffff;
+    border-top: 700px solid transparent;
+    background-attachment: fixed;
+    margin-bottom: 10rem;
+}
+
+.slanted-div-btn p{
+    color: rgb(64, 85, 85);
+    margin-top: 350px;
+    margin-right: 1%;
+}
+
+
+
+.color-div1a a,.slanted-div a{
+    padding: .4rem .7rem;
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.9rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(151, 177, 199);
+    text-shadow: 1px 2px 4px rgb(64, 69, 73);
+    border:5px solid rgb(151, 177, 199);
+    transition: color 0.3s;
+}
+
+.my-btn::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    transition: all .3s;
+}
+
+.color-div1a a:hover, .slanted-div a:hover{
+    color: rgba(236, 233, 233);
+}
+
+.my-btn:hover::after{
+    border:5px solid rgb(207, 231, 230);
+    width: calc(110% - 25px);
+    height: calc(110% + 25px);
+}
+
+footer{
+    background: rgba(46, 63, 87, 0.95);
+}
+footer p{
+    color : rgba(18, 106, 230, 0.95)
+}
+footer p:hover{
+    color: rgba(125, 191, 253, 0.3);
+}
+@media(min-width:768px) and (max-width:992px)
+{
+    .parallax{
+        height: 85vh;
+    }
+    img{
+        margin-bottom: 2rem;
+    }
+    .color-div{
+        height: 40vh;
+    }
+    .plx1 img{
+        margin-left: 28%;
+    }
+
+    .plx2{
+        height: 60vh;
+    }
+
+    .my-text-bgcolor p{
+        width: 100% !important;
+    }
+    .color-div2{
+        height: 60vh;
+    }
+
+    .color-div3{
+        margin-top: -35rem;
+        height: 50vh;
+    }
+
+    .image3 img{
+        height: 27rem !important;
+        width: 22rem !important;
+        margin-top: 4rem;
+    }
+
+    .color-div3 p{
+        width: 45% !important;
+        margin-right: 2%;
+        float: right !important;
+    }
+
+    .plx4{
+        height: 40vh;
+    }
+
+    .insta-img img{
+        height: 10rem;
+        width: 15rem;
+    }
+    .plx5{
+        background-image: url("../gambar/no2.jpg");
+        height: 300px;
+        border-right: 100px solid #ffffff;
+        border-top: 200px solid transparent;
+        margin-bottom: 2rem;
+    }
+    .slanted-div-btn p{
+        margin-top: -2rem !important;
+        margin-right: 1%;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px)
+{
+    .parallax{
+        height: 100vh;
+    }
+
+    img{
+        margin-bottom: 1rem;
+    }
+    h3{
+        font-size: 1rem !important;
+    }
+    p{
+        padding: 5px;
+        letter-spacing: 2px;
+        font-size: .8rem;
+    }
+    .color-div1a a, .slanted-div a{
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+
+    .color-div1 h3{
+        margin-top: 5rem !important;
+    }
+
+    .plx2{
+        height: 90vh;
+    }
+    .my-text-bgcolor p{
+        width: 100% !important;
+    }
+    .color-div2{
+        height: 100vh;
+    }
+    .content2a h3{
+        margin-top: 10px !important;
+    }
+
+    .plx3{
+        height: 150vh;
+    }
+
+    .color-div3{
+        margin-top: 0rem;
+        height: 120vh;
+    }
+    .plx3 img{
+        height: 320px !important;
+        width: 345px !important;
+        margin-top: 2rem;
+    }
+    .color-div3{
+        height: 70vh;
+        padding-top: 7rem;
+    }
+    .color-div3 h3{
+        margin-top: 10rem !important;
+    }
+    .color-div3 p{
+        width: 100% !important;
+        margin-left: 5px;
+        padding: 20px;
+        position: static;
+        float: none;
+    }
+
+    .plx4{
+        display: none;
+    }
+    .color-div4{
+        height: 150vh;
+        padding: 2rem 0px 2rem 0px;
+    }
+
+    .insta-img img{
+        height: 10rem;
+        width: 15rem;
+    }
+
+    .plx5{
+        height: 50vh !important;
+        border-right: 100px solid #ffffff;
+        border-top: 250px solid transparent;
+        background-color: rgb(160, 185, 136);
+        margin-bottom: 2rem;
+    }
+    .slanted-div-btn p{
+        margin-top: -1rem !important;
+    }
+}
